@@ -1,7 +1,12 @@
 Algoritmo "Troco"
 
-// Autor(a)    : Rodrigo Gama
-// Data atual  : 18/05/2023
+Problema "troco_verificado"
+Fazer um programa para calcular o troco no processo de pagamento de um produto de uma mercearia.
+O programa deve ler o pre√ßo unit√°rio do produto, a quantidade de unidades compradas deste produto,
+e o valor em dinheiro dado pelo cliente. Seu programa deve mostrar o valor do troco a ser devolvido
+ao cliente. Se o dinheiro dado pelo cliente n√£o for suficiente, mostrar uma mensagem informando o
+valor restante conforme exemplo.
+
 Var
 
 preco,qntd,dinheiro,troco : real
@@ -9,20 +14,20 @@ preco,qntd,dinheiro,troco : real
 
 Inicio
 
-escreval("Ol·! esse programa simula uma compra de mercado")
+escreval("Ol√°! esse programa simula uma compra de mercado")
 
-escreva("Informe o preÁo do produto: ")
+escreva("Informe o pre√ßo do produto: ")
 leia(preco)
 
 escreva("Informe a quantidade de produtos comprados: ")
 leia(qntd)
 
-escreva("Informe quanto dinheiro vocÍ possui: ")
+escreva("Informe quanto dinheiro voc√™ possui: ")
 leia(dinheiro)
 
 troco <- dinheiro - (preco*qntd)
 
-escreva("O troco a ser pago ser· de " ,troco:1:2, " reais.")
+escreva("O troco a ser pago ser√° de " ,troco:1:2, " reais.")
 
 
 Fimalgoritmo
