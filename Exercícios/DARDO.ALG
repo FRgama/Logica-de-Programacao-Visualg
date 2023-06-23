@@ -1,5 +1,10 @@
 Algoritmo "Dardo"
 
+Problema "dardo"
+No arremesso de dardo, o atleta tem três chances para lançar o dardo à maior distância que conseguir.
+Você deve criar um programa para, dadas as medidas das três tentativas de lançamento, informar qual
+foi a maior. 
+
 Var
 
 x1,x2,x3,maior : real
@@ -7,7 +12,7 @@ x1,x2,x3,maior : real
 
 Inicio
 
-escreval("Digite as tr�s distancias: ")
+escreval("Digite as três distancias: ")
 leia(x1,x2,x3)
 
 se (x1 > x2) e (x1 > x3) entao
@@ -20,7 +25,7 @@ senao
      fimse
 fimse
 
-escreva("A maior dist�ncia �: ",maior)
+escreva("A maior distância é: ",maior)
 
 
 
