@@ -1,5 +1,9 @@
 Algoritmo "Soma"
 
+Problema "soma"
+Fazer um programa para ler dois valores inteiros X e Y, e depois mostrar na tela o valor da soma destes
+nÃºmeros. 
+
 Var
 
 x,y,soma : real
@@ -7,16 +11,16 @@ x,y,soma : real
 
 Inicio
 
-escreval("Olá, neste programa você fará a somatoria dos números!")
+escreval("OlÃ¡, neste programa vocÃª farÃ¡ a somatoria dos nÃºmeros!")
 
-escreva("Digite um número: ")
+escreva("Digite um nÃºmero: ")
 leia(x)
 
-escreva("Digite outro número: ")
+escreva("Digite outro nÃºmero: ")
 leia(y)
 
 soma <- x+y
 
-escreva("A soma de ",x," e ",y," é o número: " ,soma)
+escreva("A soma de ",x," e ",y," Ã© o nÃºmero: " ,soma)
 
 Fimalgoritmo
