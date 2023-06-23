@@ -1,4 +1,10 @@
 Algoritmo "Crescente"
+
+Problema "crescente" (adaptado de URI 1113)
+Leia uma quantidade indeterminada de duplas de valores inteiros X e Y. Escreva para cada X e Y uma
+mensagem que indique se estes valores foram digitados em ordem crescente ou decrescente. O
+programa deve finalizar quando forem digitados dois valores iguais. 
+
 Var
 
 x,y : inteiro
@@ -18,7 +24,7 @@ enquanto x <> y faca
               escreval("Decrescente!")
          fimse
 
-         escreval("Digite outros dois números:")
+         escreval("Digite outros dois nÃºmeros:")
          leia(x,y)
 
 fimenquanto
