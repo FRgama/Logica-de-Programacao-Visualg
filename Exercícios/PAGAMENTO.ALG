@@ -1,7 +1,9 @@
 Algoritmo "Pagamento"
 
-// Autor(a)    : Rodrigo Gama
-// Data atual  : 18/05/2023
+Problema "pagamento"
+Fazer um programa para ler o nome de um(a) funcion√°rio(a), o valor que ele(a) recebe por hora, e a
+quantidade de horas trabalhadas por ele(a). Ao final, mostrar o valor do pagamento do funcion√°rio com
+uma mensagem explicativa, conforme exemplo. 
 
 Var
 
@@ -11,7 +13,7 @@ valor,horas,pagamento : real
 
 Inicio
 
-escreval("Ol·! Neste programa vocÍ ver· o pagamento requerido pelo usu·rio")
+escreval("Ol√°! Neste programa voc√™ ver√° o pagamento requerido pelo usu√°rio")
 
 escreva("Nome: ")
 leia(nome)
