@@ -1,5 +1,8 @@
 Algoritmo "Retangulo"
 
+Problema "retangulo"
+Fazer um programa para ler as medidas da base e altura de um ret√¢ngulo. Em seguida, mostrar o valor
+da √°rea, per√≠metro e diagonal deste ret√¢ngulo, com quatro casas decimais.
 
 Var
 
@@ -16,11 +19,11 @@ Inicio
       perimetro <- (base*2)+(altura*2)
       diagonal <- raizq(exp(base,2) + exp(altura,2))
 
-      escreval("A base do seu retangulo È de " ,base:1:2, " metros.")
-      escreval("A altura do seu retangulo È de " ,altura:1:2, " metros.")
-      escreval("A area do seu retangulo È de " ,area:1:2, " metros.")
-      escreval("O perÌmetro do seu retangulo È de " ,perimetro:1:2, " metros.")
-      escreval("A diagonal do seu retangulo È de " ,diagonal:1:3, " metros.")
+      escreval("A base do seu retangulo √© de " ,base:1:2, " metros.")
+      escreval("A altura do seu retangulo √© de " ,altura:1:2, " metros.")
+      escreval("A area do seu retangulo √© de " ,area:1:2, " metros.")
+      escreval("O per√≠metro do seu retangulo √© de " ,perimetro:1:2, " metros.")
+      escreval("A diagonal do seu retangulo √© de " ,diagonal:1:3, " metros.")
       
 
 Fimalgoritmo
