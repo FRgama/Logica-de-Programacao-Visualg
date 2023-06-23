@@ -1,7 +1,10 @@
 Algoritmo "Consumo"
 
-// Autor(a)    : Rodrigo Gama
-// Data atual  : 18/05/2023
+Problema "consumo"
+Fazer um programa para ler a distância total (em km) percorrida por um carro, bem como o total de
+combustível gasto por este carro ao percorrer tal distância. Seu programa deve mostrar o consumo
+médio do carro, com três casas decimais. 
+
 Var
 
 distancia,combustivel,consumo : real
@@ -9,7 +12,7 @@ distancia,combustivel,consumo : real
 
 Inicio
 
-   escreval("Ol�! Calcularei a m�dia de combustivel gasto em uma viagem de carro.")
+   escreval("Olá! Calcularei a média de combustivel gasto em uma viagem de carro.")
 
    escreva("Distancia percorrida: ")
    leia(distancia)
@@ -19,6 +22,6 @@ Inicio
 
    consumo <- distancia/combustivel
 
-   escreva("O consumo m�dio foi de ",consumo:5:3)
+   escreva("O consumo médio foi de ",consumo:5:3)
 
 Fimalgoritmo
