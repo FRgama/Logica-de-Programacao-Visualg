@@ -1,4 +1,8 @@
-Algoritmo "Menor_Número"
+Algoritmo "Menor_NÃºmero"
+
+Problema "menor_de_tres"
+Fazer um programa para ler trÃªs nÃºmeros inteiros. Em seguida, mostrar qual o menor dentre os trÃªs
+nÃºmeros lidos. Em caso de empate, mostrar apenas uma vez. 
 
 Var
 n1,n2,n3 : inteiro
@@ -7,22 +11,22 @@ n1,n2,n3 : inteiro
 Inicio
 
 
-escreva("Digite o primeiro número: ")
+escreva("Digite o primeiro nÃºmero: ")
 leia(n1)
 
-escreva("Digite o segundo número: ")
+escreva("Digite o segundo nÃºmero: ")
 leia(n2)
 
-escreva("Digite o terceiro número: ")
+escreva("Digite o terceiro nÃºmero: ")
 leia(n3)
 
 se (n1 > n2) e (n1 > n3) entao
-   escreval("O maior número é " ,n1)
+   escreval("O maior nÃºmero Ã© " ,n1)
 senao
      se (n2 > n1) e (n2 > n3) entao
-        escreval("O maior numero é ",n2)
+        escreval("O maior numero Ã© ",n2)
      senao
-        escreval("O maior número é ", n3)
+        escreval("O maior nÃºmero Ã© ", n3)
      fimse
 fimse
 Fimalgoritmo
