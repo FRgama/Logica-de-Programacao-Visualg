@@ -1,6 +1,9 @@
-Algoritmo "Dura��o"
-// Autor(a)    : Rodrigo Gama
-// Data atual  : 18/05/2023
+Algoritmo "Duração"
+
+Problema "duracao"
+Fazer um programa para ler uma duração de tempo em segundos, daí imprimir na tela esta duração no
+formato horas:minutos:segundos. 
+
 Var
 
 horas, resto, duracao, minutos, segundos : inteiro
@@ -8,7 +11,7 @@ horas, resto, duracao, minutos, segundos : inteiro
 
 Inicio
 
-escreva("Digite a dura��o em segundos: ")
+escreva("Digite a duração em segundos: ")
 leia(duracao)
 
 horas <- duracao\3600
