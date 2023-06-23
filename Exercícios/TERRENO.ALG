@@ -1,5 +1,10 @@
 Algoritmo "Terreno"
-// Descrição   : Exercício chamado "terreno"
+
+Problema "terreno"
+Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma
+casa decimal, bem como o valor do metro quadrado do terreno com duas casas decimais. Em seguida,
+o programa deve mostrar o valor da Ã¡rea do terreno, bem como o valor do preÃ§o do terreno, ambos com
+duas casas decimais, conforme exemplo. 
 
 Var
 
@@ -14,14 +19,14 @@ inicio
       escreva("Qual o comprimento do terreno? ")
       leia(comprimento)
 
-      escreva("Qual será o valor do metro quadrado? ")
+      escreva("Qual serÃ¡ o valor do metro quadrado? ")
       leia(valor)
       
       area <- largura*comprimento
       preco <- area*valor
 
-      escreval("a area do terreno será de ",area," metros")
-      escreval("O preço do terreno será de ",preco," reais")
+      escreval("a area do terreno serÃ¡ de ",area," metros")
+      escreval("O preÃ§o do terreno serÃ¡ de ",preco," reais")
 
 
 Fimalgoritmo
