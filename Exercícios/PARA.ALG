@@ -1,9 +1,7 @@
 Algoritmo "Para"
-// 
-//  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 22/06/2023
+
+Aula de introduÃ§Ã£o da funÃ§Ã£o Para.
+
 Var
 
 n,soma,x,i : inteiro
@@ -11,7 +9,7 @@ n,soma,x,i : inteiro
 
 Inicio
 
-escreva("Quantas repetições? ")
+escreva("Quantas repetiÃ§Ãµes? ")
 leia(n)
 
       para i de 1 ate n  faca
